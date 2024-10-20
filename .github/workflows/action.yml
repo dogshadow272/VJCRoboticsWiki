@@ -18,7 +18,6 @@ jobs:
         uses: konstfish/quartz-build-action@v1
         with:
           source: /docs
-          quartz_layout: /quartz.layout.ts
           page_title: "VRMC Wiki"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
